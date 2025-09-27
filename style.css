@@ -216,3 +216,53 @@ footer .info-btn {
 .my-story h3, .favorite-quote h3 {
   margin-bottom: .5rem;
 }
+
+/* RESUME PAGE */
+.resume {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.resume h2 {
+  text-align: center;
+  margin: .5rem 0;
+}
+.resume hr {
+  border: 0;
+  border-top: 2px solid #ccc;
+}
+.resume-contact {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+.resume-section {
+  margin: 1.5rem 0;
+}
+.resume-section h3 {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: .25rem;
+}
+.resume-item {
+  margin-bottom: 1rem;
+}
+.resume-item h4 {
+  margin: .25rem 0;
+}
+.resume-item ul {
+  margin: .5rem 0 0 1.25rem;
+}
+.resume-skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.25rem;
+  padding: 0;
+}
+.resume-skills li {
+  background: #f0f0f0;
+  padding: .4rem .8rem;
+  border-radius: 20px;
+}
