@@ -3,76 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me - Caleb's Portfolio</title>
+  <title>About Me - Caleb Kritzar</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
 </head>
-<body>
-  <!-- HEADER -->
+<body class="about">
+  <!-- ===== Header ===== -->
   <header class="site-header">
     <div class="header-left">
-      <img src="assets/images/profile.jpg" alt="Caleb" class="profile-pic">
+      <img src="assets/images/logo.jpg" alt="Caleb Kritzar" class="header-photo">
       <span class="site-name">Caleb's Portfolio</span>
     </div>
-    
-    <nav class="nav-bar">
+    <nav class="header-nav">
       <a href="index.html">Home</a>
       <a href="business.html">Caleb's Business</a>
       <a href="about.html" class="active">About Me</a>
       <a href="resume.html">Resume</a>
-      <button class="search-toggle"><i class="icon-search"></i></button>
+      <button class="search-icon">🔍</button>
     </nav>
   </header>
 
-  <!-- SEARCH BAR -->
-  <div class="search-bar hidden">
-    <button class="back-btn"><i class="icon-back"></i></button>
-    <i class="icon-search"></i>
-    <input type="text" placeholder="Search this site">
-  </div>
-
-  <!-- HERO IMAGE -->
+  <!-- ===== Hero Section ===== -->
   <section class="hero">
     <h1>About Me</h1>
   </section>
 
-  <!-- ABOUT SECTION -->
-  <section class="about">
-    <div class="about-header">
-      <div class="about-name">
+  <!-- ===== About Section ===== -->
+  <section class="about-container">
+    <div class="about-profile">
+      <!-- Portrait -->
+      <img src="assets/images/portrait.jpg" alt="Caleb Kritzar" class="about-photo">
+      
+      <!-- Text -->
+      <div class="about-text">
+        <h2 class="about-name">Caleb Kritzar</h2>
+        <p><strong>Gender:</strong> Male</p>
+
+        <div class="about-story">
+          <h3>My Story:</h3>
+          <p>
+            This is where you write your personal journey. Talk about your background, your interests, and what motivates you.
+          </p>
+        </div>
+
         <hr>
-        <h2>Caleb Kritzar</h2>
-        <hr>
+
+        <div class="favorite-quote">
+          <h3>My Favorite Quote:</h3>
+          <p>"The only limit to our realization of tomorrow is our doubts of today."</p>
+        </div>
       </div>
-      <img src="assets/images/profile.jpg" alt="Caleb" class="about-pic">
-    </div>
-
-    <p><strong>Gender:</strong> Male</p>
-
-    <div class="my-story">
-      <h3>My Story:</h3>
-      <p>
-        I’ve always been passionate about creating, building, and sharing my work with others. 
-        This portfolio is a reflection of my journey in tech, design, and business. 
-        Every project I take on is an opportunity to learn and push myself further.
-      </p>
-    </div>
-
-    <hr>
-
-    <div class="favorite-quote">
-      <h3>My Favorite Quote:</h3>
-      <p>"Success is not final, failure is not fatal: It is the courage to continue that counts." – Winston Churchill</p>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
     <p>© 2025 Caleb Kritzar. All Rights Reserved.</p>
-    <button class="info-btn">ⓘ</button>
-    <div class="info-popup hidden">
-      <p>Page updated Sept 27, 2025</p>
-      <a href="mailto:caleb@example.com">Contact</a>
+    <div class="footer-info">
+      <button class="info-button">ℹ️</button>
+      <div class="info-popup">
+        <p>Page updated: September 27, 2025</p>
+        <a href="mailto:caleb@example.com">Contact</a>
+      </div>
     </div>
   </footer>
 </body>
