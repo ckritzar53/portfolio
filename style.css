@@ -130,3 +130,51 @@ footer .info-btn {
 .info-popup.hidden {
   display: none;
 }
+
+/* BUSINESS PAGE */
+.business {
+  text-align: center;
+  padding: 2rem;
+}
+.store-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+.business .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.business .contact {
+  margin: 1rem 0;
+}
+.hours {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 400px;
+  margin-inline: auto;
+}
+.hours ul {
+  list-style: none;
+  padding: 0;
+}
+.hours li {
+  display: flex;
+  justify-content: space-between;
+  padding: .25rem 0;
+}
+.hours .current-day {
+  font-weight: bold;
+}
+.special-days {
+  margin-top: 2rem;
+}
+.special {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 0;
+  border-bottom: 1px solid #ccc;
+}
