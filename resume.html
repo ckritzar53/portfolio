@@ -3,109 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume - Caleb's Portfolio</title>
+  <title>Resume - Caleb Kritzar</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
 </head>
-<body>
-  <!-- HEADER -->
+<body class="resume">
+  
+  <!-- Header -->
   <header class="site-header">
     <div class="header-left">
-      <img src="assets/images/profile.jpg" alt="Caleb" class="profile-pic">
-      <span class="site-name">Caleb's Portfolio</span>
+      <img src="assets/images/profile.jpg" alt="Caleb Kritzar" class="header-photo">
+      <span class="site-name">Caleb’s Portfolio</span>
     </div>
-    
-    <nav class="nav-bar">
+    <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="business.html">Caleb's Business</a>
       <a href="about.html">About Me</a>
       <a href="resume.html" class="active">Resume</a>
-      <button class="search-toggle"><i class="icon-search"></i></button>
     </nav>
+    <div class="search-icon">🔍</div>
   </header>
 
-  <!-- SEARCH BAR -->
-  <div class="search-bar hidden">
-    <button class="back-btn"><i class="icon-back"></i></button>
-    <i class="icon-search"></i>
-    <input type="text" placeholder="Search this site">
-  </div>
-
-  <!-- HERO IMAGE -->
+  <!-- Hero Image -->
   <section class="hero">
     <h1>Resume</h1>
   </section>
 
-  <!-- RESUME SECTION -->
-  <section class="resume">
-    <!-- Name with separators -->
-    <hr>
-    <h2>Caleb Kritzar</h2>
-    <hr>
+  <!-- Resume Content -->
+  <section class="resume-container">
+    <h2 class="resume-name">Caleb Kritzar</h2>
+    <p class="resume-contact">
+      City, State | +1 (555) 123-4567 | <a href="mailto:caleb@example.com">caleb@example.com</a>
+    </p>
 
-    <!-- Contact Info -->
-    <p class="resume-contact">New York, NY | +1 (555) 123-4567 | caleb@example.com</p>
+    <hr>
 
     <!-- Summary -->
-    <hr>
     <div class="resume-section">
       <h3>Summary</h3>
       <p>
-        Motivated and detail-oriented professional with a strong background in web 
-        development and business management. Skilled in creating responsive websites, 
-        managing online brands, and delivering high-quality user experiences.
+        Motivated professional with a strong background in technology, business, and creative design. 
+        Skilled in web development, customer service, and problem-solving with a passion for continuous growth.
       </p>
     </div>
 
-    <!-- Education -->
     <hr>
+
+    <!-- Education -->
     <div class="resume-section">
       <h3>Education</h3>
-      <div class="resume-item">
-        <h4>State University</h4>
-        <p>Bachelor of Science in Computer Science – 2022</p>
-      </div>
-      <div class="resume-item">
-        <h4>Community College</h4>
-        <p>Associate Degree in Business – 2019</p>
-      </div>
+      <ul>
+        <li><strong>University of Example</strong> – B.S. in Computer Science (2018 – 2022)</li>
+        <li><strong>Example High School</strong> – Diploma (2014 – 2018)</li>
+      </ul>
     </div>
 
-    <!-- Experience (optional to expand later) -->
     <hr>
+
+    <!-- Experience -->
     <div class="resume-section">
       <h3>Experience</h3>
-      <div class="resume-item">
-        <h4>Frontend Developer – Freelance</h4>
-        <p>2023 – Present</p>
-        <ul>
-          <li>Built responsive portfolio and business websites.</li>
-          <li>Implemented custom JavaScript features for interactive UIs.</li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <strong>Web Developer – Example Company</strong> (2023 – Present)<br>
+          Designed and maintained responsive websites, improved user experience, and implemented SEO strategies.
+        </li>
+        <li>
+          <strong>IT Assistant – Example Org</strong> (2021 – 2023)<br>
+          Assisted with system administration, troubleshooting, and user support.
+        </li>
+      </ul>
     </div>
 
-    <!-- Skills -->
     <hr>
+
+    <!-- Skills -->
     <div class="resume-section">
       <h3>Skills</h3>
       <ul class="resume-skills">
-        <li>HTML, CSS, JavaScript</li>
-        <li>React & SwiftUI</li>
-        <li>Business Branding</li>
-        <li>Project Management</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Swift</li>
+        <li>React</li>
+        <li>Firebase</li>
       </ul>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
+  <!-- Footer -->
+  <footer class="site-footer">
     <p>© 2025 Caleb Kritzar. All Rights Reserved.</p>
-    <button class="info-btn">ⓘ</button>
-    <div class="info-popup hidden">
-      <p>Page updated Sept 27, 2025</p>
-      <a href="mailto:caleb@example.com">Contact</a>
+    <div class="footer-info">
+      <span class="info-icon">ℹ️</span>
+      <div class="info-popup">
+        <p>Page updated September 27, 2025</p>
+        <a href="mailto:caleb@example.com">Contact</a>
+      </div>
     </div>
   </footer>
+
 </body>
 </html>
