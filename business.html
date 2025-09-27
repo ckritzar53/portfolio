@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caleb's Business</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-left">
+      <img src="assets/images/profile.jpg" alt="Caleb" class="profile-pic">
+      <span class="site-name">Caleb's Portfolio</span>
+    </div>
+    
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="business.html" class="active">Caleb's Business</a>
+      <a href="about.html">About Me</a>
+      <a href="resume.html">Resume</a>
+      <button class="search-toggle"><i class="icon-search"></i></button>
+    </nav>
+  </header>
+
+  <!-- SEARCH BAR -->
+  <div class="search-bar hidden">
+    <button class="back-btn"><i class="icon-back"></i></button>
+    <i class="icon-search"></i>
+    <input type="text" placeholder="Search this site">
+  </div>
+
+  <!-- HERO IMAGE -->
+  <section class="hero">
+    <h1>Caleb's Business</h1>
+  </section>
+
+  <!-- MERCH STORE -->
+  <section class="business">
+    <img src="assets/images/store-logo.png" alt="Store Logo" class="store-logo">
+    <h2>Caleb's Merch Store</h2>
+    <p>Exclusive products, designed with passion. Support my work and grab your favorite items today!</p>
+    
+    <div class="btn-group">
+      <a href="mailto:caleb@example.com" class="btn">
+        <i class="icon-message"></i> Send Message
+      </a>
+      <a href="https://example.com/shop" target="_blank" class="btn">
+        <i class="icon-cart"></i> Shop Our Merch
+      </a>
+    </div>
+
+    <!-- Contact Info -->
+    <p class="contact">
+      <i class="icon-email"></i> <strong>Email:</strong> caleb@example.com
+    </p>
+
+    <!-- Hours Section -->
+    <div class="hours">
+      <p id="status"></p>
+      <p><strong>Hours:</strong></p>
+      <ul>
+        <li><span class="day">Sunday</span> <span class="time" id="sun">Closed</span></li>
+        <li><span class="day">Monday</span> <span class="time" id="mon">9 AM – 6 PM</span></li>
+        <li><span class="day">Tuesday</span> <span class="time" id="tue">9 AM – 6 PM</span></li>
+        <li><span class="day">Wednesday</span> <span class="time" id="wed">9 AM – 6 PM</span></li>
+        <li><span class="day">Thursday</span> <span class="time" id="thu">9 AM – 6 PM</span></li>
+        <li><span class="day">Friday</span> <span class="time" id="fri">9 AM – 8 PM</span></li>
+        <li><span class="day">Saturday</span> <span class="time" id="sat">10 AM – 4 PM</span></li>
+      </ul>
+    </div>
+
+    <!-- Special Days -->
+    <div class="special-days">
+      <h3>Special Days</h3>
+      <div class="special">
+        <p><strong>Nov 27</strong></p>
+        <p>Thanksgiving</p>
+        <span>Closed</span>
+      </div>
+      <div class="special">
+        <p><strong>Dec 25</strong></p>
+        <p>Christmas</p>
+        <span>Closed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Caleb Kritzar. All Rights Reserved.</p>
+    <button class="info-btn">ⓘ</button>
+    <div class="info-popup hidden">
+      <p>Page updated Sept 27, 2025</p>
+      <a href="mailto:caleb@example.com">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
 
