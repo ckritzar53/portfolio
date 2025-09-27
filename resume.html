@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Caleb's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-left">
+      <img src="assets/images/profile.jpg" alt="Caleb" class="profile-pic">
+      <span class="site-name">Caleb's Portfolio</span>
+    </div>
+    
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="business.html">Caleb's Business</a>
+      <a href="about.html">About Me</a>
+      <a href="resume.html" class="active">Resume</a>
+      <button class="search-toggle"><i class="icon-search"></i></button>
+    </nav>
+  </header>
 
+  <!-- SEARCH BAR -->
+  <div class="search-bar hidden">
+    <button class="back-btn"><i class="icon-back"></i></button>
+    <i class="icon-search"></i>
+    <input type="text" placeholder="Search this site">
+  </div>
+
+  <!-- HERO IMAGE -->
+  <section class="hero">
+    <h1>Resume</h1>
+  </section>
+
+  <!-- RESUME SECTION -->
+  <section class="resume">
+    <!-- Name with separators -->
+    <hr>
+    <h2>Caleb Kritzar</h2>
+    <hr>
+
+    <!-- Contact Info -->
+    <p class="resume-contact">New York, NY | +1 (555) 123-4567 | caleb@example.com</p>
+
+    <!-- Summary -->
+    <hr>
+    <div class="resume-section">
+      <h3>Summary</h3>
+      <p>
+        Motivated and detail-oriented professional with a strong background in web 
+        development and business management. Skilled in creating responsive websites, 
+        managing online brands, and delivering high-quality user experiences.
+      </p>
+    </div>
+
+    <!-- Education -->
+    <hr>
+    <div class="resume-section">
+      <h3>Education</h3>
+      <div class="resume-item">
+        <h4>State University</h4>
+        <p>Bachelor of Science in Computer Science – 2022</p>
+      </div>
+      <div class="resume-item">
+        <h4>Community College</h4>
+        <p>Associate Degree in Business – 2019</p>
+      </div>
+    </div>
+
+    <!-- Experience (optional to expand later) -->
+    <hr>
+    <div class="resume-section">
+      <h3>Experience</h3>
+      <div class="resume-item">
+        <h4>Frontend Developer – Freelance</h4>
+        <p>2023 – Present</p>
+        <ul>
+          <li>Built responsive portfolio and business websites.</li>
+          <li>Implemented custom JavaScript features for interactive UIs.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <hr>
+    <div class="resume-section">
+      <h3>Skills</h3>
+      <ul class="resume-skills">
+        <li>HTML, CSS, JavaScript</li>
+        <li>React & SwiftUI</li>
+        <li>Business Branding</li>
+        <li>Project Management</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Caleb Kritzar. All Rights Reserved.</p>
+    <button class="info-btn">ⓘ</button>
+    <div class="info-popup hidden">
+      <p>Page updated Sept 27, 2025</p>
+      <a href="mailto:caleb@example.com">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
